@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+fieldset{
+    border: none;
+}
+#join{
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    padding: 40px;
+}
+#join legend{
+    font: bold 30px/1 "arial";
+    color: #333;
+    margin-bottom: 40px;
+}
+#join label{
+    display: block;
+    font: bold 20px/1 "arial";
+    color: #555;
+    margin-bottom: 10px;
+}
+#join input[type=text], #join input[type=password]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#join input[type=submit]{
+    width: 200px;
+    height: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#join a input[type=submit]{
+    width: 200px;
+    height: 40px;
+    box-sizing: border-box;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
